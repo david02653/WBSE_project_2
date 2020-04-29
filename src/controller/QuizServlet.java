@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.ArrayList;
 
-@WebServlet("/quiz")
+@WebServlet(urlPatterns = {"/quiz", "/quiz2"})
 public class QuizServlet extends HttpServlet {
 
     @Override
